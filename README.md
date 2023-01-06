@@ -3,7 +3,7 @@ Apres l'instalation d'influxdb et de grafana.
 
 Creer un repertoire puis ouvrez app.py .
 
-installer l'environement virtuelle avec la commande :
+Installer l'environement virtuelle avec la commande :
 - python -m venv venv
 
 Puis activez l'environement virtuelle:
@@ -13,6 +13,7 @@ Puis activez l'environement virtuelle:
 installer les librairies flask et influxdb-client la ou se trouve l'api app.py
 - pip3 install flask
 - pip3 influxdb-client
+Ou utiliser les requirements.txt
 
 Lancer l'api a l'aide de la commande flask --app app run
 
