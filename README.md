@@ -1,8 +1,16 @@
 # iot
-Apres l'instalation d'influxdb et de grafana, ouvrez app.py
-installer les librairie venv, flask et influxdb-client la ou se trouve l'api app.py
+Apres l'instalation d'influxdb et de grafana.
 
+Creer un repertoire puis ouvrez app.py .
+
+installer l'environement virtuelle avec la commande :
 - python -m venv venv
+
+Puis activez l'environement virtuelle:
+- deplacez vous dans le repertoire venv/script
+- lancez l'environement virtuelle avec la commande activate
+
+installer les librairies flask et influxdb-client la ou se trouve l'api app.py
 - pip3 install flask
 - pip3 influxdb-client
 
